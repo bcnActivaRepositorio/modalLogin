@@ -100,6 +100,9 @@ button:focus {
     opacity: .8; }
     #myNav ul.nav-menu li {
       padding: 0 2rem 0 0; }
+    #myNav ul.nav-menu .modal-dialog .modal-content {
+      width: 40vw  !important;
+      margin-right: 20vw !important; }
 
   .menu-btn {
     position: absolute;
@@ -144,8 +147,5 @@ button:focus {
     font-size: 2rem; } }
 .spacing {
   padding: 50px; }
-
-.modal-content {
-  width: 500px; }
 
 /*# sourceMappingURL=styles.css.map */

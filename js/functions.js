@@ -173,7 +173,10 @@ today.innerHTML = showYear();
 $(document).ready(() => {
     $('#cookiesModal').modal('show');
 });
-
+// modal
+$('#loginModal').on('shown.bs.modal', function () {
+    $('.form-control').trigger('focus')
+  })
 //scroll view
 ScrollReveal().reveal('.aboutMe', {delay: 300});
 ScrollReveal().reveal('.services', {delay: 300});
