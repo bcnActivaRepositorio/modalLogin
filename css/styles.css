@@ -145,4 +145,7 @@ button:focus {
 .spacing {
   padding: 50px; }
 
+.modal-content {
+  width: 500px; }
+
 /*# sourceMappingURL=styles.css.map */
