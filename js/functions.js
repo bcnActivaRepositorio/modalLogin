@@ -174,7 +174,7 @@ $(document).ready(() => {
     $('#cookiesModal').modal('show');
 });
 // modal
-$('#loginModal').on('shown.bs.modal', function () {
+$('#loginModal').on('shown.bs.modal',  () => {
     $('.form-control').trigger('focus')
   })
 //scroll view
