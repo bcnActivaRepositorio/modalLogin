@@ -16,6 +16,10 @@ Home page. Nom i men&uacute;. Possibilitat de contacte a trav&eacute;s del mail 
 
 col-6 + col-6 i a sota col-12
 
+##### Modal Login
+
+Login (sense cap funcionalitat de moment) en format modal que també queda reflectit en format mobil per requeriments de l'exercici.
+
 ##### About
 
 Una petita introducci&oacute; sobre mi mateix
@@ -27,7 +31,7 @@ de la class d-none. Fet a propossit per utilitzar-ho.
 
 ##### Contact
 
-Form contact. Toggle class.
+Form contact. Toggle class. S'activa el toggle clicant sobre **contact**, tant al main com al menu inferior.
 
 ##### Footer
 
