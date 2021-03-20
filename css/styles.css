@@ -1,61 +1,77 @@
 body {
-  letter-spacing: 0.02rem; }
+  letter-spacing: 0.02rem;
+}
 
 .nameHeader p {
-  line-height: 1.6; }
-  .nameHeader p :nth-child(3) {
-    line-height: 0; }
+  line-height: 1.6;
+}
+.nameHeader p :nth-child(3) {
+  line-height: 0;
+}
 
 html {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 *, *::before, *::after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 /***********JUST A TRY FOR THE GRID**********/
 /************************************************/
 /* Remember, use bootstrap grid at all times. is an exercise of that!*/
 .name {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .nameHeader {
-  padding-top: 10rem; }
+  padding-top: 10rem;
+}
 
 body {
-  background-color: #262626; }
+  background-color: #262626;
+}
 
 .navbar {
-  background-color: #262626; }
+  background-color: #262626;
+}
 
 #fixedTop {
-  background-color: #262626; }
+  background-color: #262626;
+}
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+}
 
 .nav-main li {
-  list-style: none; }
-  .nav-main li a {
-    text-decoration: none; }
+  list-style: none;
+}
+.nav-main li a {
+  text-decoration: none;
+}
 
-.modal-dialog .modal-dialog {
+#cookiesModal .modal-dialog .modal-dialog {
   margin-top: 0;
   max-width: 100%;
-  width: 90vw; }
-.modal-dialog .modal-content {
+  width: 90vw;
+}
+#cookiesModal .modal-dialog .modal-content {
   width: 90vw;
   border: none;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
-  -o-border-radius: 0; }
+  -o-border-radius: 0;
+}
 
 #photoHolder {
   width: 65vw;
-  height: auto; }
+  height: auto;
+}
 
 .navbar-toggler {
   border: 0;
@@ -63,23 +79,29 @@ html {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
-  -o-border-radius: 0; }
+  -o-border-radius: 0;
+}
 
 .navbar-toggler:focus {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 button:focus {
-  outline: transparent; }
+  outline: transparent;
+}
 
 @media all and (max-width: 995px) {
   .display-2 {
-    font-size: 5rem; }
+    font-size: 5rem;
+  }
 
   .display-3 {
-    font-size: 4rem; }
+    font-size: 4rem;
+  }
 
   .display-4 {
-    font-size: 3rem; }
+    font-size: 3rem;
+  }
 
   #myNav ul.nav-menu {
     display: block;
@@ -97,53 +119,244 @@ button:focus {
     -moz-transition: transform 0.5s ease-in-out;
     -ms-transition: transform 0.5s ease-in-out;
     -o-transition: transform 0.5s ease-in-out;
-    opacity: .8; }
-    #myNav ul.nav-menu li {
-      padding: 0 2rem 0 0; }
-    #myNav ul.nav-menu .modal-dialog .modal-content {
-      width: 40vw  !important;
-      margin-right: 20vw !important; }
+    opacity: 0.8;
+  }
+  #myNav ul.nav-menu li {
+    padding: 0 2rem 0 0;
+  }
+  #myNav ul.nav-menu .modal-dialog .modal-content {
+    width: 40vw !important;
+    margin-right: 20vw !important;
+  }
 
   .menu-btn {
     position: absolute;
     cursor: pointer;
     top: 3.5rem;
     right: 5rem;
-    z-index: 2; }
+    z-index: 2;
+  }
 
   #myNav ul.nav-menu.show {
     transform: translateX(3rem);
     -webkit-transform: translateX(3rem);
     -moz-transform: translateX(3rem);
     -ms-transform: translateX(3rem);
-    -o-transform: translateX(3rem); } }
+    -o-transform: translateX(3rem);
+  }
+}
 @media all and (max-width: 850px) {
   .display-2 {
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+  }
 
   .display-3 {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+  }
 
   .display-4 {
-    font-size: 2rem; } }
+    font-size: 2rem;
+  }
+}
 @media all and (max-width: 650px) {
   .display-2 {
-    font-size: 3rem; }
+    font-size: 3rem;
+  }
 
   .display-3 {
-    font-size: 2.2rem; }
+    font-size: 2.2rem;
+  }
 
   .display-4 {
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+  }
 
   #photoHolder {
     width: 80vw;
-    height: auto; } }
+    height: auto;
+  }
+}
 @media all and (max-width: 550px) {
   .display-2 {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+  }
 
   .display-4 {
-    font-size: 2rem; } }
+    font-size: 2rem;
+  }
+}
+.tab-style {
+  font-size: 20px;
+  width: 50%;
+  height: 3rem;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.nav-tabs > li > a {
+  margin-right: 0px;
+  color: grey;
+}
+
+.group2 {
+  position: relative;
+  margin-top: 16px;
+}
+
+.btn-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  background-color: #e5ecf4;
+  color: #4a89dc;
+}
+
+.login-shadow {
+  -webkit-box-shadow: 5px -5px 6px 0px rgba(82, 82, 82, 0.52);
+  -moz-box-shadow: 5px -5px 6px 0px rgba(82, 82, 82, 0.52);
+  box-shadow: 5px -5px 6px 0px rgba(82, 82, 82, 0.52);
+  z-index: 1;
+}
+
+.signup-shadow {
+  -webkit-box-shadow: -5px 0px 6px 0px rgba(82, 82, 82, 0.52);
+  -moz-box-shadow: -5px -5px 6px 0px rgba(82, 82, 82, 0.52);
+  box-shadow: -5px 0px 6px 0px rgba(82, 82, 82, 0.52);
+}
+
+#myModal .modal-dialog .modal-content {
+  max-width: 90vw;
+}
+
+#myModal .modal-header {
+  background-color: #e5ecf4;
+}
+
+.group {
+  position: relative;
+  margin-top: 30px;
+}
+
+.input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  -webkit-appearance: none;
+  display: block;
+  background: none;
+  color: #636363;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #757575;
+}
+
+.input:focus {
+  outline: none;
+}
+
+/* Label */
+.label {
+  color: #757575;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: -10px;
+  top: 10px;
+  transition: all 0.2s ease;
+}
+
+/* active */
+.input:focus ~ .label, .input.used ~ .label {
+  top: -20px;
+  transform: scale(0.75);
+  left: -15px;
+  /* font-size: 14px; */
+  color: #4a89dc;
+}
+
+/* Underline */
+.bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.bar:before, .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #4a89dc;
+  transition: all 0.2s ease;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+/* active */
+.input:focus ~ .bar:before, .input:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* Highlight */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active */
+.input:focus ~ .highlight {
+  animation: inputHighlighter 0.3s ease;
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  #myModal {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #forgot-password {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #myModal .modal-dialog .model-content {
+    width: 90vw !important;
+  }
+
+  #forgot-password .modal-dialog {
+    width: 90vw !important;
+  }
+
+  #myModal .modal-body {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+#myModal .modal-body {
+  background-image: url("http://res.cloudinary.com/rinma/image/upload/v1500489833/Airplane-flying-desktop-pictureproba2_rlcced.jpg");
+  background-size: cover;
+  z-index: 4;
+}
+
+em {
+  display: none;
+}
 
 /*# sourceMappingURL=styles.css.map */

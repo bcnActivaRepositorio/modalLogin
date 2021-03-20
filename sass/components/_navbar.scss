@@ -41,7 +41,7 @@ html {
     @include myLinks;
 }
 
-.modal-dialog {
+#cookiesModal .modal-dialog {
     @include myCookies;
 }
 
